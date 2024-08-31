@@ -1,0 +1,131 @@
+:root{
+    --segunda_cor: #A3BF3F;
+    --terceira_cor: #A6763C;
+    --quarta_cor: #025928;
+    --quinta_cor:#A3BF3F;
+    --sexta_cor: #D9D9D9;
+    --setima_cor: #000000;
+    --oitva-cor:#F2D8C9;
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+
+    --fonte_titulo: "Montserrat", sans-serif;
+}
+
+.principal_about{
+    background-color: var(--setima_cor);
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    max-width: 100%; 
+    
+}
+.titulos {
+    font-family: var(--fonte_titulo);
+    color: var(--quinta_cor);
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.paragrafo_p1 {
+    font-family: var(--fonte_titulo);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--sexta_cor);
+    text-align: justify; 
+    padding: 1x; 
+    max-width: 600px;
+}
+
+.paragrafo_p2{
+    font-family: var(--fonte_titulo);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--sexta_cor);
+    text-align: center; 
+    padding: 1x; 
+    max-width: 600px;
+}
+
+.imagem_surgiu {
+    width: 15%;
+    border-radius: 20px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width:1200px){
+    .principal_about {
+        background-color: var(--setima_cor);
+        padding: 5% 2%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        max-width: 100%;
+    }
+
+    .titulos {
+        font-family: var(--fonte_titulo);
+        color: var(--quinta_cor);
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .start {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .paragrafo_p1, .paragrafo_p2 {
+        font-family: var(--fonte_titulo);
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--sexta_cor);
+        text-align: justify;
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    .paragrafo_p2 {
+        text-align: center;
+    }
+
+    .imagem_surgiu {
+        width: 50%;
+        border-radius: 20px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

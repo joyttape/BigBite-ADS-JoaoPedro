@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big BiTe</title>
+    <link rel="stylesheet" href="styles/cardapio.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="assets/logofim.png" type="image/png">
+    <script src="java/carrinho.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="conteudo_cabecalho">
+            <ul>
+                <li><a class= "menu" href="index.html">Home</a></li>
+                <li><a class= "menu" href="about.html">Quem Somos</a></li>
+                <li><a class= "menu" href="cardapio.html">Cardápio</a></li>
+                <li><a class="carrinho" href="" id="open-cart"> <img src="assets/sacola.png" class="imagemh"> (<span id="item-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal_cardapio">
+        <div class="menu-container">
+            <h1>Cardápio Big Bite</h1>
+    
+            <section>
+                <div class="menu-item">
+                    <div class="product" data-id="1" data-name="Ghost Bite" data-price="25.00">
+                        <h2 class="produto_card">Ghost Bite</h2>
+                        <p class="descricao_card">Blend de carnes, cheddar , bacon crocante, onion rings, alface crocante, tomate fresco e picles, com maionese de alho e molho barbecue, servido em pão brioche tostado.</p>
+                        <br>
+
+                        <p class="descricao_card">Preço: R$25,00</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="product" data-id="2" data-name="Bite Secreto" data-price="28.00">
+                        <h2 class="produto_card">Bite Secreto</h2>
+                        <p class="descricao_card">Hambúrguer suculento de carne bovina, queijo cheddar derretido, alface crocante, tomate fresco e um molho secreto exclusivo da casa, servido em um pão brioche tostado.</p>
+                        <br>
+
+                        <p class="descricao_card">Preço: R$28,00</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <div class="product" data-id="3" data-name="Bite da Fortuna" data-price="32.00">
+                        <h2 class="produto_card">Bite da Fortuna</h2>
+                        <p class="descricao_card">Hambúrguer de frango empanado, queijo pepper jack, alface, picles, cebola roxa e um molho especial de pimenta chipotle, no pão de batata macio.</p>
+                        <br>
+
+                        <p class="descricao_card">Preço: R$28,00</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <div class="product" data-id="4" data-name="Bite Explosivo" data-price="30.00">
+                        <h2 class="produto_card">Bite Explosivo</h2>
+                        <p class="descricao_card">Hambúrguer de carne bovina, queijo cheddar, bacon crocante, cebola caramelizada e molho barbecue defumado, servido em pão australiano.</p>
+                        <br>
+
+                        <p class="descricao_card">Preço: R$30,00</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <div class="product" data-id="5" data-name="Mistério Cheddar" data-price="32.00">
+                        <h2 class="produto_card">Mistério Cheddar</h2>
+                        <p class="descricao_card">Hambúrguer de carne bovina, queijo suíço e cheddar, cogumelos salteados, cebola caramelizada e molho aioli, em um pão brioche.</p>
+                        <br>
+                    
+                        <p class="descricao_card">Preço: R$32,00</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="product" data-id="6" data-name="Double Trouble" data-price="35.00">
+                        <h2 class="produto_card">Double Trouble</h2>
+                        <p class="descricao_card">Dois hambúrgueres de carne bovina, queijo cheddar duplo, bacon crocante, alface, tomate, cebola, picles e molho especial Big Bite, no pão brioche tostado.</p>
+                        <br>
+                    
+                        <p class="descricao_card">Preço: R$35,00</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <div class="product" data-id="7" data-name="Veggie Delight" data-price="40.00">
+                        <h2 class="produto_card">Veggie Delight</h2>
+                        <p class="descricao_card">Hambúrguer vegetal grelhado, queijo vegano, alface, tomate, cebola roxa, picles e molho de abacate, servido em pão integral.</p>
+                        <br>
+                    
+                        <p class="descricao_card">Preço: R$40,00</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <div class="product" data-id="8" data-name="Sweet & Spicy" data-price="37.00">
+                        <h2 class="produto_card">Sweet & Spicy</h2>
+                        <p class="descricao_card">Hambúrguer de carne bovina, queijo gouda, bacon caramelizado com açúcar mascavo, picles de jalapeño, cebola roxa e molho de mel com pimenta, no pão brioche tostado.</p>
+                        <br>
+
+                        <p class="descricao_card">Preço: R$37,00</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="product" data-id="9" data-name="Party Burguer" data-price="40.00">
+                        <h2 class="produto_card">Party Burguer (NOVO)</h2>
+                        <p class="descricao_card">Duplo hambúrguer de carne bovina suculenta, queijo cheddar defumado, bacon defumado, cebola caramelizada, alface roxa, servido em pão brioche.</p>
+                        <p class="descricao_card">Obs: Fica ainda mais gostoso quando você come com os amigos.</p>
+                        <br>
+                        <p class="descricao_card">Preço: R$40,00</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <div id="cart" class="cart-overlay">
+                <div class="cart-header">
+                    <h2>Seu Carrinho</h2>
+                    <button id="close-cart">✖</button>
+                </div>
+                <div class="cart-items"></div>
+                <div class="cart-total">
+                    Total: R$<span id="total">0</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2 class="rodape">Desenvolvido por João Pedro Guimarães ADS 2024/3</h2>
+    </footer>
+</body>
+</html>
